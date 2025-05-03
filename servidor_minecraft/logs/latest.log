@@ -1,28 +1,83 @@
-[19:35:05] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[19:35:05] [main/WARN]: Mod resolution failed
-[19:35:05] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE fabric-api 0.92.5+1.20.1 {depends fabricloader @ [>=0.16.10]}, ROOT_FORCELOAD_SINGLE fabric-api 0.92.5+1.20.1]
-[19:35:05] [main/INFO]: Reason: [HARD_DEP fabric-api 0.92.5+1.20.1 {depends fabricloader @ [>=0.16.10]}, HARD_DEP fabric-object-builder-api-v1 11.1.5+e35120df77 {depends fabricloader @ [>=0.16.10]}, HARD_DEP viafabric-mc1144 0.4.18+104-main {depends minecraft @ [1.14.4]}, HARD_DEP viafabric-mc1152 0.4.18+104-main {depends minecraft @ [1.15.2]}, HARD_DEP viafabric-mc1165 0.4.18+104-main {depends minecraft @ [1.16.4 || 1.16.5]}, HARD_DEP viafabric-mc1171 0.4.18+104-main {depends minecraft @ [1.17.1]}, HARD_DEP viafabric-mc1182 0.4.18+104-main {depends minecraft @ [1.18.2]}, HARD_DEP viafabric-mc1194 0.4.18+104-main {depends minecraft @ [1.19.4]}, HARD_DEP viafabric-mc1206 0.4.18+104-main {depends minecraft @ [1.20.5 || 1.20.6]}, HARD_DEP viafabric-mc1215 0.4.18+104-main {depends minecraft @ [1.21.5]}]
-[19:35:05] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, cotton-client-commands, fabric-models-v0, fabric-rendering-v0, fabric-sound-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1]
-[19:35:05] [main/INFO]: Fix: add [], remove [], replace [[fabricloader 0.16.3] -> add:fabricloader 0.16.10 ([[0.16.10,∞)])]
-[19:35:05] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.10 or later.
-More details:
-	 - Mod 'Fabric API' (fabric-api) 0.92.5+1.20.1 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'Fabric Object Builder API (v1)' (fabric-object-builder-api-v1) 11.1.5+e35120df77 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
-	 - Mod 'ViaFabric for 1.14' (viafabric-mc1144) 0.4.18+104-main requires version 1.14.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.15' (viafabric-mc1152) 0.4.18+104-main requires version 1.15.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.16' (viafabric-mc1165) 0.4.18+104-main requires version 1.16.4 or version 1.16.5 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.17' (viafabric-mc1171) 0.4.18+104-main requires version 1.17.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.18' (viafabric-mc1182) 0.4.18+104-main requires version 1.18.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.19' (viafabric-mc1194) 0.4.18+104-main requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.20.5/6' (viafabric-mc1206) 0.4.18+104-main requires version 1.20.5 or version 1.20.6 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	 - Mod 'ViaFabric for 1.21.5' (viafabric-mc1215) 0.4.18+104-main requires version 1.21.5 of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[19:37:20] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[19:37:20] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- java 17
+	- minecraft 1.20.1
+[19:37:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:37:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:37:27] [main/INFO]: Loaded 7 recipes
+[19:37:27] [main/INFO]: Loaded 1271 advancements
+[19:37:28] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:37:28] [Server thread/INFO]: Loading properties
+[19:37:28] [Server thread/INFO]: Default game type: SURVIVAL
+[19:37:28] [Server thread/INFO]: Generating keypair
+[19:37:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:37:28] [Server thread/INFO]: Using epoll channel type
+[19:37:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:37:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:37:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:37:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:37:28] [Server thread/INFO]: Preparing level "world"
+[19:37:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:37:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:37:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:37:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:37:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[19:37:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:37:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:37:38] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[19:37:38] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[19:37:39] [Worker-Main-1/INFO]: Preparing spawn area: 3%
+[19:37:39] [Worker-Main-1/INFO]: Preparing spawn area: 4%
+[19:37:40] [Worker-Main-1/INFO]: Preparing spawn area: 6%
+[19:37:40] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[19:37:41] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[19:37:41] [Worker-Main-2/INFO]: Preparing spawn area: 10%
+[19:37:42] [Worker-Main-1/INFO]: Preparing spawn area: 11%
+[19:37:42] [Worker-Main-2/INFO]: Preparing spawn area: 13%
+[19:37:43] [Worker-Main-1/INFO]: Preparing spawn area: 15%
+[19:37:43] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[19:37:44] [Worker-Main-2/INFO]: Preparing spawn area: 20%
+[19:37:44] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[19:37:45] [Worker-Main-1/INFO]: Preparing spawn area: 24%
+[19:37:45] [Worker-Main-3/INFO]: Preparing spawn area: 27%
+[19:37:46] [Worker-Main-2/INFO]: Preparing spawn area: 29%
+[19:37:47] [Worker-Main-1/INFO]: Preparing spawn area: 31%
+[19:37:47] [Worker-Main-1/INFO]: Preparing spawn area: 31%
+[19:37:47] [Worker-Main-2/INFO]: Preparing spawn area: 32%
+[19:37:48] [Worker-Main-2/INFO]: Preparing spawn area: 35%
+[19:37:48] [Worker-Main-1/INFO]: Preparing spawn area: 38%
+[19:37:49] [Worker-Main-2/INFO]: Preparing spawn area: 41%
+[19:37:49] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[19:37:50] [Worker-Main-1/INFO]: Preparing spawn area: 46%
+[19:37:50] [Worker-Main-2/INFO]: Preparing spawn area: 49%
+[19:37:51] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[19:37:51] [Worker-Main-1/INFO]: Preparing spawn area: 54%
+[19:37:52] [Worker-Main-2/INFO]: Preparing spawn area: 56%
+[19:37:52] [Worker-Main-1/INFO]: Preparing spawn area: 59%
+[19:37:53] [Worker-Main-3/INFO]: Preparing spawn area: 62%
+[19:37:53] [Worker-Main-2/INFO]: Preparing spawn area: 66%
+[19:37:54] [Worker-Main-3/INFO]: Preparing spawn area: 68%
+[19:37:54] [Worker-Main-3/INFO]: Preparing spawn area: 71%
+[19:37:55] [Worker-Main-3/INFO]: Preparing spawn area: 74%
+[19:37:55] [Worker-Main-1/INFO]: Preparing spawn area: 77%
+[19:37:56] [Worker-Main-1/INFO]: Preparing spawn area: 81%
+[19:37:56] [Worker-Main-3/INFO]: Preparing spawn area: 83%
+[19:37:57] [Worker-Main-2/INFO]: Preparing spawn area: 86%
+[19:37:57] [Worker-Main-2/INFO]: Preparing spawn area: 89%
+[19:37:58] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[19:37:58] [Worker-Main-2/INFO]: Preparing spawn area: 95%
+[19:37:59] [Server thread/INFO]: Time elapsed: 23999 ms
+[19:37:59] [Server thread/INFO]: Done (30.684s)! For help, type "help"
+[19:39:17] [Server thread/INFO]: Stopping the server
+[19:39:17] [Server thread/INFO]: Stopping server
+[19:39:17] [Server thread/INFO]: Saving players
+[19:39:17] [Server thread/INFO]: Saving worlds
+[19:39:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:39:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:39:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
