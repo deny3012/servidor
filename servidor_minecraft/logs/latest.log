@@ -1,198 +1,59 @@
-[20:43:29] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
-[20:43:29] [ForkJoinPool-1-worker-1/WARN]: Mod getittogetherdrops uses the version fabric-1.20-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[20:43:30] [main/INFO]: Loading 80 mods:
-	- architectury 9.2.14
-	- cloth-config 11.1.136
-	   \-- cloth-basic-math 0.6.1
-	- fabric-api 0.92.5+1.20.1
-	   |-- fabric-api-base 0.4.32+1802ada577
-	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
-	   |-- fabric-biome-api-v1 13.0.14+1802ada577
-	   |-- fabric-block-api-v1 1.0.12+1802ada577
-	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
-	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
-	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
-	   |-- fabric-command-api-v1 1.2.35+f71b366f77
-	   |-- fabric-command-api-v2 2.2.14+1802ada577
-	   |-- fabric-commands-v0 0.2.52+df3654b377
-	   |-- fabric-containers-v0 0.1.66+df3654b377
-	   |-- fabric-content-registries-v0 4.0.13+1802ada577
-	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
-	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
-	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
-	   |-- fabric-data-generation-api-v1 12.3.6+1802ada577
-	   |-- fabric-dimensions-v1 2.1.55+1802ada577
-	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
-	   |-- fabric-events-interaction-v0 0.6.4+13a40c6677
-	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
-	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
-	   |-- fabric-item-api-v1 2.1.29+1802ada577
-	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
-	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
-	   |-- fabric-keybindings-v0 0.2.36+df3654b377
-	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
-	   |-- fabric-loot-api-v2 1.2.3+1802ada577
-	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
-	   |-- fabric-message-api-v1 5.1.10+1802ada577
-	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
-	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
-	   |-- fabric-models-v0 0.4.3+9386d8a777
-	   |-- fabric-networking-api-v1 1.3.13+13a40c6677
-	   |-- fabric-networking-v0 0.3.53+df3654b377
-	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
-	   |-- fabric-particles-v1 1.1.3+1802ada577
-	   |-- fabric-recipe-api-v1 1.0.23+1802ada577
-	   |-- fabric-registry-sync-v0 2.3.5+1802ada577
-	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
-	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
-	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
-	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
-	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
-	   |-- fabric-rendering-v0 1.1.50+df3654b377
-	   |-- fabric-rendering-v1 3.0.9+1802ada577
-	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
-	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
-	   |-- fabric-screen-api-v1 2.0.9+1802ada577
-	   |-- fabric-screen-handler-api-v1 1.3.32+1802ada577
-	   |-- fabric-sound-api-v1 1.0.14+1802ada577
-	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
-	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
-	- fabricloader 0.16.10
-	   \-- mixinextras 0.4.1
-	- ferritecore 6.0.1
-	- floodgate 2.2.0-SNAPSHOT
-	   |-- adventure-platform-fabric 5.8.0-SNAPSHOT
-	   |    |-- net_kyori_adventure-api 4.13.0
-	   |    |-- net_kyori_adventure-key 4.13.0
-	   |    |-- net_kyori_adventure-platform-api 4.2.0
-	   |    |-- net_kyori_adventure-text-logger-slf4j 4.13.0
-	   |    |-- net_kyori_adventure-text-minimessage 4.13.0
-	   |    |-- net_kyori_adventure-text-serializer-gson 4.13.0
-	   |    |-- net_kyori_adventure-text-serializer-plain 4.13.0
-	   |    |-- net_kyori_examination-api 1.3.0
-	   |    \-- net_kyori_examination-string 1.3.0
-	   \-- cloud 1.8.3
-	        |-- cloud_commandframework_cloud-brigadier_ 1.8.3
-	        |-- cloud_commandframework_cloud-core_ 1.8.3
-	        |-- cloud_commandframework_cloud-services_ 1.8.3
-	        |-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	        \-- io_leangen_geantyref_geantyref 1.3.13
-	- getittogetherdrops fabric-1.20-1.3.1
-	- geyser-fabric 2.2.0-SNAPSHOT
-	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	- hopperhedgehog 1.2.0-1.20
-	- java 17
-	- lithium 0.11.3
-	- minecraft 1.20.1
-	- modernfix 5.21.0+mc1.20.1
-	- noisium 2.3.0+mc1.20-1.20.1
-	- owo 0.11.2+1.20
-	   \-- blue_endless_jankson 1.2.2
-	- smelterhedgehog 1.1.1-1.20
-	- spark 1.10.53
-	- viabackwards 5.3.2
-	- viafabric 0.4.18+104-main
-	   |-- cotton-client-commands 1.1.0+1.15.2
-	   \-- viafabric-mc1201 0.4.18+104-main
-	- viarewind 4.0.7
-	- viaversion 5.3.2
-[20:43:30] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/servidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:43:30] [main/INFO]: Compatibility level set to JAVA_17
-[20:43:30] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 2 override(s) found
-[20:43:30] [main/INFO]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 65 options available, 0 override(s) found
-[20:43:30] [main/INFO]: Applying Nashorn fix
-[20:43:31] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerWorldMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WorldChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WorldMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.support_cache.BlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.support_cache.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.support_cache.WorldChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [smelterhedgehog]) disables it and children
-[20:43:31] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[20:43:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:43:33] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[20:43:33] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[20:43:33] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[20:43:35] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[20:43:35] [main/INFO]: Vanilla bootstrap took 3990 milliseconds
-[20:43:37] [main/INFO]: Loading extensions...
-[20:43:37] [main/INFO]: Loaded 0 extension(s)
-[20:43:37] [main/INFO]: Starting Load for Hopper the Hedgehog
-[20:43:37] [main/INFO]: Load for Hopper the Hedgehog successful
-[20:43:37] [main/INFO]: Loading Noisium.
-[20:43:37] [main/INFO]: Blodhgarm: Did you know it took four switcheroos to implement the Matrices in the correct folder
-[20:43:37] [main/INFO]: Burning through Items faster than gacha games through wallets
-[20:43:37] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
-[20:43:37] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:43:38] [main/INFO]: Loading translations...
-[20:43:38] [main/INFO]: Registering protocols...
-[20:43:38] [main/INFO]: Registering protocols...
-[20:43:38] [main/INFO]: ViaVersion detected server version: 1.20-1.20.1 (763)
-[20:43:38] [main/WARN]: Please update your Java runtime to at least Java 21 (your version is 17.0.14).
-[20:43:38] [main/WARN]: At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[20:43:38] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[20:43:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:43:38] [main/INFO]: Bypassed Mojang DFU
-[20:43:40] [main/INFO]: Loaded 7 recipes
-[20:43:40] [main/INFO]: Loaded 1271 advancements
-[20:43:40] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.713 ms
-[20:43:40] [Server thread/INFO]: Starting background profiler...
-[20:43:41] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:43:41] [Server thread/INFO]: Loading properties
-[20:43:41] [Server thread/INFO]: Default game type: SURVIVAL
-[20:43:41] [Server thread/INFO]: Generating keypair
-[20:43:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:43:41] [Server thread/INFO]: Using epoll channel type
-[20:43:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:43:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:43:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:43:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:43:41] [Server thread/INFO]: Preparing level "world"
-[20:43:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:43:41] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[20:43:43] [Server thread/INFO]: Preparing spawn area: 0%
-[20:43:43] [Server thread/INFO]: Preparing spawn area: 0%
-[20:43:43] [Server thread/INFO]: Preparing spawn area: 0%
-[20:43:43] [Server thread/INFO]: Preparing spawn area: 0%
-[20:43:44] [Server thread/INFO]: Time elapsed: 2240 ms
-[20:43:44] [Server thread/INFO]: Done (2.753s)! For help, type "help"
-[20:43:44] [Server thread/WARN]: Dedicated server took 15.298 seconds to load
-[20:43:44] [Server thread/WARN]: en_ is not a supported Floodgate language.
-[20:43:44] [Server thread/INFO]: Took 45ms to boot Floodgate
-[20:43:44] [Server thread/INFO]: ******************************************
-[20:43:44] [Server thread/INFO]: 
-[20:43:44] [Server thread/INFO]: Loading Geyser version 2.2.0-SNAPSHOT (git-master-7983448)
-[20:43:44] [Server thread/INFO]: 
-[20:43:44] [Server thread/INFO]: ******************************************
-[20:43:47] [epollEventLoopGroup-3-1/INFO]: Started Geyser on 0.0.0.0:19132
-[20:43:47] [Server thread/INFO]: Done (3.633s)! Run /geyser help for help!
-[20:43:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3716ms or 74 ticks behind
-[20:43:47] [ForkJoinPool.commonPool-worker-2/INFO]: [32;1mThere's a new Geyser update available to support Bedrock version 1.21.80. Download it here: [34;1m[4mhttps://geysermc.org/download[0m
-[20:43:48] [ForkJoinPool.commonPool-worker-1/WARN]: Missing MC locale file: en_us
-[20:43:48] [ForkJoinPool.commonPool-worker-1/INFO]: Downloading Minecraft JAR to extract required files, please wait... (this may take some time depending on the speed of your internet connection)
-[20:43:49] [ForkJoinPool.commonPool-worker-1/INFO]: Minecraft JAR has been successfully downloaded and loaded!
-[20:45:43] [Server thread/INFO]: Stopping the server
-[20:45:43] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[20:45:43] [Server thread/INFO]: Shutting down Geyser.
-[20:45:43] [Server thread/INFO]: Geyser shutdown successfully.
-[20:45:43] [Server thread/INFO]: Stopping server
-[20:45:43] [Server thread/INFO]: Saving players
-[20:45:43] [Server thread/INFO]: Saving worlds
-[20:45:43] [WebSocketConnectReadThread-76/INFO]: The skin uploader has been closed
-[20:45:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:45:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:45:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:45:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:46:09] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:48:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:48:20] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[20:48:21] [ServerMain/INFO]: Loaded 7 recipes
+[20:48:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:48:22] [Server thread/INFO]: Loading properties
+[20:48:22] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:48:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:48:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:48:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:48:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:48:23] [Server thread/INFO]: Default game type: SURVIVAL
+[20:48:23] [Server thread/INFO]: Generating keypair
+[20:48:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:48:23] [Server thread/INFO]: Using epoll channel type
+[20:48:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:48:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:48:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:48:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:48:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:48:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:48:23] [Server thread/INFO]: Preparing level "world"
+[20:48:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:48:33] [Server thread/INFO]: Time elapsed: 119 ms
+[20:48:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:48:33] [Server thread/INFO]: Time elapsed: 72 ms
+[20:48:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:48:33] [Server thread/INFO]: Time elapsed: 65 ms
+[20:48:33] [Server thread/INFO]: Running delayed init tasks
+[20:48:33] [Server thread/INFO]: Done (11.332s)! For help, type "help"
+[20:48:33] [Server thread/INFO]: Timings Reset
+[20:52:57] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[20:53:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[20:53:16] [Server thread/INFO]: Stopping server
+[20:53:16] [Server thread/INFO]: Saving players
+[20:53:16] [Server thread/INFO]: Saving worlds
+[20:53:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:53:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:53:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:53:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:53:18] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.70s
+[20:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:53:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:53:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:53:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:53:19] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.99s
+[20:53:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:53:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:53:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:53:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:53:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.46s
+[20:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:53:20] [Server thread/INFO]: Flushing Chunk IO
+[20:53:20] [Server thread/INFO]: Closing Thread Pool
+[20:53:20] [Server thread/INFO]: Closing Server
